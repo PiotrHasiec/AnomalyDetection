@@ -1,0 +1,10 @@
+- B0407 - brak serii czasowych T11 i T12 (most linowy - zarówno dla markerów, jak i k¹tów medycznych)
+- B0408 - brak serii T01 i T02 dla LWrist oraz RWrist
+- B0410 - brak serii T12
+- B0411 - brak serii T02 i T03
+- B0412 - brak serii T08 dla k¹tów w p³aszczyznach medycznych (dla wszystkich stawów)
+- B0413 - brak serii T06 oraz T01-T06 dla LWrist oraz RWrist - co to za seria T13 ? (mo¿e po prostu numeracja przesunê³a siê o 1 ?)
+- B0414 - brak serii T10 (ale jest 13 nagrañ wideo ?) - co to za seria T13 ? (czwarta sekwencja z mostem linowym)
+- B0415 - co to za seria T13 ? 
+- B0416 - brak serii T05 dla LWrist oraz RWrist
+- B0418 - brak serii T04

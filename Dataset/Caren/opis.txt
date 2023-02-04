@@ -1,0 +1,34 @@
+Nagrania z 08.12.2017
+
+Osoba: B0407
+
+4 scenariusze (normalny, z zakłóceniami dźwiękowymi, z zakłóceniami wizualnymi, z zakłóceniami mechanicznymi, tzn. gwałtowne ruchy platformy), po 3 przejścia dla każdego scenariusza => 12 przejść - ale nagrano filmy tylko dla 9 przejść (tzn. bez przejść scenariusza normalnego) oraz 10 zbiorów serii czasowych (wszystkie przejścia dla scenariuszy: normalnego, z zakłóceniami dźwiękowymi i z zakłóceniami wizualnymi oraz pierwsze z trzech przejść dla scenariusza z zakłóceniami mechanicznymi). 
+
+Opis plików:
+- filmy (po 3 na przejście: => 3 pliki .avi z końcówką 0,1,2 - 3 kamery: z lewej, z tyłu, z prawej)
+- trajektorie markerów (ANK, KNE, ASI, WRA) - dla obu stron ciała (L/R) (patrz: dołączony rysunek z rozmieszczeniem markerów na ciele) - pliki csv w folderze Markery
+- kąty w stawach (skokowy, kolanowy, biodrowy, nadgarstek) - dla obu stron ciała (L/R) - w płaszczyznach: strzałkowej (zgięcie/wyprost), czołowej (odwodzenie/przywodzenie), poprzecznej (nawracanie/obracanie) - pliki csv w folderze Medyczne
+- pliki tekstowe:
+  * pliki DataEvents zawierają informacje o chwilach wystąpienia zakłócenia (wiersze EVENT; stosowano 3 zakłócenia w każdym przejściu)
+  * pliki DataTreadmill zawierają informacje o chwilowej prędkości bieżni
+  * nie wiem, co zawierają pliki GaitRecording
+  * dla przejść wg scenariusza z zakłóceniami mechanicznymi jest tylko plik data0001, m.in. z prędkością bieżni
+
+Pojedynczy plik csv dla danego stawu lub markera zawiera 3 serie czasowe z 1 przejścia - każda seria jest związana z ruchem w jednej z 3 płaszczyzn - oraz numer cyklu chodu. Częstotliwość 100 Hz.
+
+Nazwy plików:
+T01-T02-T03 - przejścia wg scenariusza bez zakłóceń (T01-T02 - zmieniająca się Preferred Walking Speed (PWS), T03 - stała prędkość bieżni równa średniej PWS z przejść T01-T02)
+T04-T05-T06 - przejścia wg scenariusza z zakłóceniami dźwiękowymi
+T07-T08-T09 - przejścia wg scenariusza z zakłóceniami wizualnymi
+T10 - most (przejście wg scenariusza z zakłóceniami mechanicznymi)
+
+Przyporządkowanie filmów i plików tekstowych do serii czasowych:
+1231 - 3 zdarzenia A (dźwiękowe) - T04
+1232 - 3 zdarzenia A (dźwiękowe) - T05
+1233 - 3 zdarzenia A (dźwiękowe) - T06
+1235 - 3 zdarzenia B (wizualne) - T07
+1236 - 3 zdarzenia B (wizualne) - T08
+1237 - 3 zdarzenia B (wizualne) - T09
+1241 - most (mechaniczne) - T10
+1243 - most (mechaniczne) - serii czasowych brak
+1244 - most (mechaniczne) - serii czasowych brak 
